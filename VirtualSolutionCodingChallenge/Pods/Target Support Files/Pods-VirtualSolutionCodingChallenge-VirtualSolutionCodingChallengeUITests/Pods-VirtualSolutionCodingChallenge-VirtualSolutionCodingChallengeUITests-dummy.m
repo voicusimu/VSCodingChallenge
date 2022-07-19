@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_VirtualSolutionCodingChallenge_VirtualSolutionCodingChallengeUITests : NSObject
+@end
+@implementation PodsDummy_Pods_VirtualSolutionCodingChallenge_VirtualSolutionCodingChallengeUITests
+@end

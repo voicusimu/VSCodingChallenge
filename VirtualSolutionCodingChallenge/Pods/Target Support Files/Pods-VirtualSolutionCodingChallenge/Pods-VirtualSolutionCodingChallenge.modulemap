@@ -1,0 +1,6 @@
+framework module Pods_VirtualSolutionCodingChallenge {
+  umbrella header "Pods-VirtualSolutionCodingChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4330ED51B3C3042DB01E1AF7 /* Pods_VirtualSolutionCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E177FB56F3923E72E110947 /* Pods_VirtualSolutionCodingChallenge.framework */; };
+		529BC93497760EB3ED798F93 /* Pods_VirtualSolutionCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B991EFDE70776852F981DD4 /* Pods_VirtualSolutionCodingChallengeTests.framework */; };
+		80A444ED3E16F8E8B5AF787B /* Pods_VirtualSolutionCodingChallenge_VirtualSolutionCodingChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C296AD75C41E0F9B60F702FE /* Pods_VirtualSolutionCodingChallenge_VirtualSolutionCodingChallengeUITests.framework */; };
+		B4A8660D280C057800A16B6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A8660C280C057800A16B6D /* AppDelegate.m */; };
+		B4A86610280C057800A16B6D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A8660F280C057800A16B6D /* SceneDelegate.m */; };
+		B4A86616280C057800A16B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A86614280C057800A16B6D /* Main.storyboard */; };
+		B4A86618280C057B00A16B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A86617280C057B00A16B6D /* Assets.xcassets */; };
+		B4A8661B280C057B00A16B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A86619280C057B00A16B6D /* LaunchScreen.storyboard */; };
+		B4A8661E280C057B00A16B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A8661D280C057B00A16B6D /* main.m */; };
+		B4A86628280C057C00A16B6D /* VirtualSolutionCodingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86627280C057C00A16B6D /* VirtualSolutionCodingChallengeTests.m */; };
+		B4A86632280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86631280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests.m */; };
+		B4A86634280C057C00A16B6D /* VirtualSolutionCodingChallengeUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86633280C057C00A16B6D /* VirtualSolutionCodingChallengeUITestsLaunchTests.m */; };
+		B4A86646280C132100A16B6D /* VSImageSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86644280C132100A16B6D /* VSImageSearchService.m */; };
+		B4A8664A280C136000A16B6D /* VSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86648280C136000A16B6D /* VSSearchViewController.m */; };
+		B4A8664D280C1A2C00A16B6D /* VSDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A8664C280C1A2C00A16B6D /* VSDetailsViewController.m */; };
+		B4A86651280C1A7300A16B6D /* VSSearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86650280C1A7300A16B6D /* VSSearchViewModel.m */; };
+		B4A86655280C1CB000A16B6D /* VSPixabaySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86654280C1CB000A16B6D /* VSPixabaySearchResult.m */; };
+		B4A86658280C785700A16B6D /* VSSearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86657280C785700A16B6D /* VSSearchResultTableViewCell.m */; };
+		B4A86660280C851C00A16B6D /* VSCustomLoadMoreFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A8665E280C851C00A16B6D /* VSCustomLoadMoreFooterView.xib */; };
+		B4A86663280C892500A16B6D /* VSCustomLoadMoreFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86662280C892500A16B6D /* VSCustomLoadMoreFooterView.m */; };
+		B4A86666280C92B100A16B6D /* VSDetailsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A86665280C92B100A16B6D /* VSDetailsViewModel.m */; };
+		B4A8666C280CC43E00A16B6D /* VSDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A8666B280CC43E00A16B6D /* VSDetailsTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4A86624280C057C00A16B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4A86600280C057800A16B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A86607280C057800A16B6D;
+			remoteInfo = VirtualSolutionCodingChallenge;
+		};
+		B4A8662E280C057C00A16B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4A86600280C057800A16B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A86607280C057800A16B6D;
+			remoteInfo = VirtualSolutionCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B991EFDE70776852F981DD4 /* Pods_VirtualSolutionCodingChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualSolutionCodingChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E39BA952798E420AEA4F7F3 /* Pods-VirtualSolutionCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSolutionCodingChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-VirtualSolutionCodingChallengeTests/Pods-VirtualSolutionCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C467BB96063C4CD5D39C28D /* Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E177FB56F3923E72E110947 /* Pods_VirtualSolutionCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualSolutionCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		764B538167422355662EEE55 /* Pods-VirtualSolutionCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSolutionCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-VirtualSolutionCodingChallenge/Pods-VirtualSolutionCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		80A72AD824E6D73B4948603E /* Pods-VirtualSolutionCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSolutionCodingChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-VirtualSolutionCodingChallengeTests/Pods-VirtualSolutionCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4A86608280C057800A16B6D /* VirtualSolutionCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualSolutionCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A8660B280C057800A16B6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4A8660C280C057800A16B6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4A8660E280C057800A16B6D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B4A8660F280C057800A16B6D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B4A86615280C057800A16B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4A86617280C057B00A16B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4A8661A280C057B00A16B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4A8661C280C057B00A16B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A8661D280C057B00A16B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4A86623280C057C00A16B6D /* VirtualSolutionCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualSolutionCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A86627280C057C00A16B6D /* VirtualSolutionCodingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualSolutionCodingChallengeTests.m; sourceTree = "<group>"; };
+		B4A8662D280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualSolutionCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A86631280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualSolutionCodingChallengeUITests.m; sourceTree = "<group>"; };
+		B4A86633280C057C00A16B6D /* VirtualSolutionCodingChallengeUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualSolutionCodingChallengeUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B4A86644280C132100A16B6D /* VSImageSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSImageSearchService.m; sourceTree = "<group>"; };
+		B4A86645280C132100A16B6D /* VSImageSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSImageSearchService.h; sourceTree = "<group>"; };
+		B4A86648280C136000A16B6D /* VSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSearchViewController.m; sourceTree = "<group>"; };
+		B4A86649280C136000A16B6D /* VSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSearchViewController.h; sourceTree = "<group>"; };
+		B4A8664B280C1A2C00A16B6D /* VSDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSDetailsViewController.h; sourceTree = "<group>"; };
+		B4A8664C280C1A2C00A16B6D /* VSDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSDetailsViewController.m; sourceTree = "<group>"; };
+		B4A8664F280C1A7300A16B6D /* VSSearchViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSSearchViewModel.h; sourceTree = "<group>"; };
+		B4A86650280C1A7300A16B6D /* VSSearchViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSSearchViewModel.m; sourceTree = "<group>"; };
+		B4A86653280C1CB000A16B6D /* VSPixabaySearchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSPixabaySearchResult.h; sourceTree = "<group>"; };
+		B4A86654280C1CB000A16B6D /* VSPixabaySearchResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSPixabaySearchResult.m; sourceTree = "<group>"; };
+		B4A86656280C785700A16B6D /* VSSearchResultTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSSearchResultTableViewCell.h; sourceTree = "<group>"; };
+		B4A86657280C785700A16B6D /* VSSearchResultTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSSearchResultTableViewCell.m; sourceTree = "<group>"; };
+		B4A8665E280C851C00A16B6D /* VSCustomLoadMoreFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VSCustomLoadMoreFooterView.xib; sourceTree = "<group>"; };
+		B4A86661280C892500A16B6D /* VSCustomLoadMoreFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSCustomLoadMoreFooterView.h; sourceTree = "<group>"; };
+		B4A86662280C892500A16B6D /* VSCustomLoadMoreFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSCustomLoadMoreFooterView.m; sourceTree = "<group>"; };
+		B4A86664280C92B100A16B6D /* VSDetailsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSDetailsViewModel.h; sourceTree = "<group>"; };
+		B4A86665280C92B100A16B6D /* VSDetailsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSDetailsViewModel.m; sourceTree = "<group>"; };
+		B4A8666A280CC43E00A16B6D /* VSDetailsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSDetailsTableViewCell.h; sourceTree = "<group>"; };
+		B4A8666B280CC43E00A16B6D /* VSDetailsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSDetailsTableViewCell.m; sourceTree = "<group>"; };
+		C296AD75C41E0F9B60F702FE /* Pods_VirtualSolutionCodingChallenge_VirtualSolutionCodingChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualSolutionCodingChallenge_VirtualSolutionCodingChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41770BB01464F869159F83A /* Pods-VirtualSolutionCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSolutionCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-VirtualSolutionCodingChallenge/Pods-VirtualSolutionCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		D8323C37572B135ED5CF6BFE /* Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4A86605280C057800A16B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4330ED51B3C3042DB01E1AF7 /* Pods_VirtualSolutionCodingChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A86620280C057C00A16B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BC93497760EB3ED798F93 /* Pods_VirtualSolutionCodingChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8662A280C057C00A16B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A444ED3E16F8E8B5AF787B /* Pods_VirtualSolutionCodingChallenge_VirtualSolutionCodingChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F65A012621229B03941513A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E177FB56F3923E72E110947 /* Pods_VirtualSolutionCodingChallenge.framework */,
+				C296AD75C41E0F9B60F702FE /* Pods_VirtualSolutionCodingChallenge_VirtualSolutionCodingChallengeUITests.framework */,
+				0B991EFDE70776852F981DD4 /* Pods_VirtualSolutionCodingChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51DE126EDBBE9927B9A8C879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C41770BB01464F869159F83A /* Pods-VirtualSolutionCodingChallenge.debug.xcconfig */,
+				764B538167422355662EEE55 /* Pods-VirtualSolutionCodingChallenge.release.xcconfig */,
+				5C467BB96063C4CD5D39C28D /* Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.debug.xcconfig */,
+				D8323C37572B135ED5CF6BFE /* Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.release.xcconfig */,
+				2E39BA952798E420AEA4F7F3 /* Pods-VirtualSolutionCodingChallengeTests.debug.xcconfig */,
+				80A72AD824E6D73B4948603E /* Pods-VirtualSolutionCodingChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4A865FF280C057800A16B6D = {
+			isa = PBXGroup;
+			children = (
+				B4A8660A280C057800A16B6D /* VirtualSolutionCodingChallenge */,
+				B4A86626280C057C00A16B6D /* VirtualSolutionCodingChallengeTests */,
+				B4A86630280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests */,
+				B4A86609280C057800A16B6D /* Products */,
+				51DE126EDBBE9927B9A8C879 /* Pods */,
+				1F65A012621229B03941513A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4A86609280C057800A16B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A86608280C057800A16B6D /* VirtualSolutionCodingChallenge.app */,
+				B4A86623280C057C00A16B6D /* VirtualSolutionCodingChallengeTests.xctest */,
+				B4A8662D280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4A8660A280C057800A16B6D /* VirtualSolutionCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				B4A86647280C136000A16B6D /* View */,
+				B4A8664E280C1A5600A16B6D /* ViewModel */,
+				B4A86652280C1C5000A16B6D /* Model */,
+				B4A86643280C132100A16B6D /* Services */,
+				B4A8660B280C057800A16B6D /* AppDelegate.h */,
+				B4A8660C280C057800A16B6D /* AppDelegate.m */,
+				B4A8660E280C057800A16B6D /* SceneDelegate.h */,
+				B4A8660F280C057800A16B6D /* SceneDelegate.m */,
+				B4A86617280C057B00A16B6D /* Assets.xcassets */,
+				B4A8661C280C057B00A16B6D /* Info.plist */,
+				B4A8661D280C057B00A16B6D /* main.m */,
+			);
+			path = VirtualSolutionCodingChallenge;
+			sourceTree = "<group>";
+		};
+		B4A86626280C057C00A16B6D /* VirtualSolutionCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4A86627280C057C00A16B6D /* VirtualSolutionCodingChallengeTests.m */,
+			);
+			path = VirtualSolutionCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+		B4A86630280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4A86631280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests.m */,
+				B4A86633280C057C00A16B6D /* VirtualSolutionCodingChallengeUITestsLaunchTests.m */,
+			);
+			path = VirtualSolutionCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		B4A86643280C132100A16B6D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B4A86644280C132100A16B6D /* VSImageSearchService.m */,
+				B4A86645280C132100A16B6D /* VSImageSearchService.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B4A86647280C136000A16B6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4A86614280C057800A16B6D /* Main.storyboard */,
+				B4A86619280C057B00A16B6D /* LaunchScreen.storyboard */,
+				B4A86649280C136000A16B6D /* VSSearchViewController.h */,
+				B4A86648280C136000A16B6D /* VSSearchViewController.m */,
+				B4A8664B280C1A2C00A16B6D /* VSDetailsViewController.h */,
+				B4A8664C280C1A2C00A16B6D /* VSDetailsViewController.m */,
+				B4A86656280C785700A16B6D /* VSSearchResultTableViewCell.h */,
+				B4A86657280C785700A16B6D /* VSSearchResultTableViewCell.m */,
+				B4A8666A280CC43E00A16B6D /* VSDetailsTableViewCell.h */,
+				B4A8666B280CC43E00A16B6D /* VSDetailsTableViewCell.m */,
+				B4A8665E280C851C00A16B6D /* VSCustomLoadMoreFooterView.xib */,
+				B4A86661280C892500A16B6D /* VSCustomLoadMoreFooterView.h */,
+				B4A86662280C892500A16B6D /* VSCustomLoadMoreFooterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4A8664E280C1A5600A16B6D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8664F280C1A7300A16B6D /* VSSearchViewModel.h */,
+				B4A86650280C1A7300A16B6D /* VSSearchViewModel.m */,
+				B4A86664280C92B100A16B6D /* VSDetailsViewModel.h */,
+				B4A86665280C92B100A16B6D /* VSDetailsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B4A86652280C1C5000A16B6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4A86653280C1CB000A16B6D /* VSPixabaySearchResult.h */,
+				B4A86654280C1CB000A16B6D /* VSPixabaySearchResult.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4A86607280C057800A16B6D /* VirtualSolutionCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A86637280C057C00A16B6D /* Build configuration list for PBXNativeTarget "VirtualSolutionCodingChallenge" */;
+			buildPhases = (
+				69045FD5C70F60C34E44F458 /* [CP] Check Pods Manifest.lock */,
+				B4A86604280C057800A16B6D /* Sources */,
+				B4A86605280C057800A16B6D /* Frameworks */,
+				B4A86606280C057800A16B6D /* Resources */,
+				1CA2A9800B03AA0CF5CB2933 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualSolutionCodingChallenge;
+			productName = VirtualSolutionCodingChallenge;
+			productReference = B4A86608280C057800A16B6D /* VirtualSolutionCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4A86622280C057C00A16B6D /* VirtualSolutionCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A8663A280C057C00A16B6D /* Build configuration list for PBXNativeTarget "VirtualSolutionCodingChallengeTests" */;
+			buildPhases = (
+				CBE8B059BECCF5CE7ED51D04 /* [CP] Check Pods Manifest.lock */,
+				B4A8661F280C057C00A16B6D /* Sources */,
+				B4A86620280C057C00A16B6D /* Frameworks */,
+				B4A86621280C057C00A16B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A86625280C057C00A16B6D /* PBXTargetDependency */,
+			);
+			name = VirtualSolutionCodingChallengeTests;
+			productName = VirtualSolutionCodingChallengeTests;
+			productReference = B4A86623280C057C00A16B6D /* VirtualSolutionCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4A8662C280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A8663D280C057C00A16B6D /* Build configuration list for PBXNativeTarget "VirtualSolutionCodingChallengeUITests" */;
+			buildPhases = (
+				D81E3E69D1E2C777313EE275 /* [CP] Check Pods Manifest.lock */,
+				B4A86629280C057C00A16B6D /* Sources */,
+				B4A8662A280C057C00A16B6D /* Frameworks */,
+				B4A8662B280C057C00A16B6D /* Resources */,
+				093137138FFEB49E14734177 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A8662F280C057C00A16B6D /* PBXTargetDependency */,
+			);
+			name = VirtualSolutionCodingChallengeUITests;
+			productName = VirtualSolutionCodingChallengeUITests;
+			productReference = B4A8662D280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4A86600280C057800A16B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B4A86607280C057800A16B6D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B4A86622280C057C00A16B6D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B4A86607280C057800A16B6D;
+					};
+					B4A8662C280C057C00A16B6D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B4A86607280C057800A16B6D;
+					};
+				};
+			};
+			buildConfigurationList = B4A86603280C057800A16B6D /* Build configuration list for PBXProject "VirtualSolutionCodingChallenge" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4A865FF280C057800A16B6D;
+			productRefGroup = B4A86609280C057800A16B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A86607280C057800A16B6D /* VirtualSolutionCodingChallenge */,
+				B4A86622280C057C00A16B6D /* VirtualSolutionCodingChallengeTests */,
+				B4A8662C280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4A86606280C057800A16B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A86660280C851C00A16B6D /* VSCustomLoadMoreFooterView.xib in Resources */,
+				B4A8661B280C057B00A16B6D /* LaunchScreen.storyboard in Resources */,
+				B4A86618280C057B00A16B6D /* Assets.xcassets in Resources */,
+				B4A86616280C057800A16B6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A86621280C057C00A16B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8662B280C057C00A16B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		093137138FFEB49E14734177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CA2A9800B03AA0CF5CB2933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualSolutionCodingChallenge/Pods-VirtualSolutionCodingChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualSolutionCodingChallenge/Pods-VirtualSolutionCodingChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualSolutionCodingChallenge/Pods-VirtualSolutionCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69045FD5C70F60C34E44F458 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualSolutionCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE8B059BECCF5CE7ED51D04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualSolutionCodingChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81E3E69D1E2C777313EE275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A86604280C057800A16B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A8664A280C136000A16B6D /* VSSearchViewController.m in Sources */,
+				B4A8666C280CC43E00A16B6D /* VSDetailsTableViewCell.m in Sources */,
+				B4A86666280C92B100A16B6D /* VSDetailsViewModel.m in Sources */,
+				B4A8660D280C057800A16B6D /* AppDelegate.m in Sources */,
+				B4A8664D280C1A2C00A16B6D /* VSDetailsViewController.m in Sources */,
+				B4A8661E280C057B00A16B6D /* main.m in Sources */,
+				B4A86663280C892500A16B6D /* VSCustomLoadMoreFooterView.m in Sources */,
+				B4A86651280C1A7300A16B6D /* VSSearchViewModel.m in Sources */,
+				B4A86646280C132100A16B6D /* VSImageSearchService.m in Sources */,
+				B4A86655280C1CB000A16B6D /* VSPixabaySearchResult.m in Sources */,
+				B4A86658280C785700A16B6D /* VSSearchResultTableViewCell.m in Sources */,
+				B4A86610280C057800A16B6D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8661F280C057C00A16B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A86628280C057C00A16B6D /* VirtualSolutionCodingChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A86629280C057C00A16B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A86632280C057C00A16B6D /* VirtualSolutionCodingChallengeUITests.m in Sources */,
+				B4A86634280C057C00A16B6D /* VirtualSolutionCodingChallengeUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4A86625280C057C00A16B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4A86607280C057800A16B6D /* VirtualSolutionCodingChallenge */;
+			targetProxy = B4A86624280C057C00A16B6D /* PBXContainerItemProxy */;
+		};
+		B4A8662F280C057C00A16B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4A86607280C057800A16B6D /* VirtualSolutionCodingChallenge */;
+			targetProxy = B4A8662E280C057C00A16B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4A86614280C057800A16B6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A86615280C057800A16B6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4A86619280C057B00A16B6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A8661A280C057B00A16B6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4A86635280C057C00A16B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4A86636280C057C00A16B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4A86638280C057C00A16B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41770BB01464F869159F83A /* Pods-VirtualSolutionCodingChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualSolutionCodingChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicusimu.VirtualSolutionCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4A86639280C057C00A16B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764B538167422355662EEE55 /* Pods-VirtualSolutionCodingChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualSolutionCodingChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicusimu.VirtualSolutionCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4A8663B280C057C00A16B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E39BA952798E420AEA4F7F3 /* Pods-VirtualSolutionCodingChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicusimu.VirtualSolutionCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualSolutionCodingChallenge.app/VirtualSolutionCodingChallenge";
+			};
+			name = Debug;
+		};
+		B4A8663C280C057C00A16B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A72AD824E6D73B4948603E /* Pods-VirtualSolutionCodingChallengeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicusimu.VirtualSolutionCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualSolutionCodingChallenge.app/VirtualSolutionCodingChallenge";
+			};
+			name = Release;
+		};
+		B4A8663E280C057C00A16B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C467BB96063C4CD5D39C28D /* Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicusimu.VirtualSolutionCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualSolutionCodingChallenge;
+			};
+			name = Debug;
+		};
+		B4A8663F280C057C00A16B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8323C37572B135ED5CF6BFE /* Pods-VirtualSolutionCodingChallenge-VirtualSolutionCodingChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicusimu.VirtualSolutionCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualSolutionCodingChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4A86603280C057800A16B6D /* Build configuration list for PBXProject "VirtualSolutionCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A86635280C057C00A16B6D /* Debug */,
+				B4A86636280C057C00A16B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A86637280C057C00A16B6D /* Build configuration list for PBXNativeTarget "VirtualSolutionCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A86638280C057C00A16B6D /* Debug */,
+				B4A86639280C057C00A16B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A8663A280C057C00A16B6D /* Build configuration list for PBXNativeTarget "VirtualSolutionCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A8663B280C057C00A16B6D /* Debug */,
+				B4A8663C280C057C00A16B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A8663D280C057C00A16B6D /* Build configuration list for PBXNativeTarget "VirtualSolutionCodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A8663E280C057C00A16B6D /* Debug */,
+				B4A8663F280C057C00A16B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4A86600280C057800A16B6D /* Project object */;
+}
